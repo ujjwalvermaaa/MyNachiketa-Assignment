@@ -110,12 +110,3 @@ Gemini grades components 0–100. Python weights them:
 
 Weights and thresholds: `backend/app/config.py`.
 
-## Deploy
-
-- Frontend → Vercel (`NEXT_PUBLIC_API_URL` = public API URL)
-- Backend → Render, start: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
-- Database → the same Supabase project
-- Add the production origin and `https://YOUR_APP/auth/callback` on the Google OAuth client
-- Set `FRONTEND_URL` and `GOOGLE_REDIRECT_URI` to those production URLs
-
-`GET /health` must return `{"status":"ok"}`.
