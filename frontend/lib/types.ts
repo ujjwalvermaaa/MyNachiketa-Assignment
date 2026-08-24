@@ -1,0 +1,47 @@
+export type Candidate = {
+  id: number;
+  name: string;
+  email: string;
+  college: string;
+  branch: string;
+  cgpa: number | null;
+  best_ai_project: string;
+  research_work: string;
+  github_url: string;
+  github_username: string;
+  resume_url: string;
+  status: string;
+  processing_error: string;
+  resume_score: number | null;
+  skills_score: number | null;
+  ai_project_score: number | null;
+  github_score: number | null;
+  research_score: number | null;
+  cgpa_score: number | null;
+  pre_test_score: number | null;
+  test_score: number | null;
+  final_score: number | null;
+};
+
+export type RankRow = {
+  rank: number | null;
+  id: number;
+  name: string;
+  email: string;
+  college: string;
+  branch: string;
+  cgpa: number | null;
+  best_ai_project: string;
+  research_work: string;
+  github_url: string;
+  github_username: string;
+  resume_url: string;
+  resume_score: number | null;
+  ai_project_score: number | null;
+  github_score: number | null;
+  research_score: number | null;
+  pre_test_score: number | null;
+  test_score: number | null;
+  final_score: number | null;
+  status: string;
+};

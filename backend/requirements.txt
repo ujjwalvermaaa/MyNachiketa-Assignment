@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+pydantic
+pydantic-settings
+pandas
+openpyxl
+httpx
+pymupdf
+python-multipart
+python-dotenv
+google-auth
+google-auth-oauthlib
+google-api-python-client
+pytest
